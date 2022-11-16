@@ -23,7 +23,7 @@ namespace Lambda
             LicensPlate = licensPlate;
             Convertible = convertible;
         }
-        public override string ToString() => $"  ";
+        public override string ToString() => $" ccccc ";
 
          
     }
