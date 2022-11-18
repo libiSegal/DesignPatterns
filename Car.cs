@@ -24,6 +24,7 @@ namespace Lambda
             Convertible = convertible;
         }
         public override string ToString() => $" ccccc ";
+        public void string Changh() => $"Try";
 
          
     }
