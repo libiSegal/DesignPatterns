@@ -6,7 +6,7 @@ namespace SuperDrinkMachine
 {
     public class Stock
     {
-
+        readonly int minCount = 5;
         public Dictionary<ProductEnum, List<Product>> Inventory { get; set; }
         public Dictionary<ProductEnum, Suplier> Supliers { get; set; }
 
@@ -26,7 +26,7 @@ namespace SuperDrinkMachine
                     product = Inventory[productEnum][0];
                     Inventory[productEnum].RemoveAt(0);
                 }
-                if (Inventory[productEnum].Count == 5)
+                if (Inventory[productEnum].Count == minCount)
                 {
                     //use the observer DP;
                     Supliers[productEnum].UpdateSuplier();

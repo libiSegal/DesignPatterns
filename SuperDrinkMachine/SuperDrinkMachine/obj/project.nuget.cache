@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8WFpNwlREjBKpu05Qfb2F0Uc7ev4Ulu8SSzninAY+SlHtP1H+svO6ukp+N75kBeouPUq/WGgvE248JNyyIs9kg==",
+  "dgSpecHash": "zSwvu7tqfqVxCUsQEy7Zawsrdcg9eTIGlAF/iT6+KZSiZ13lQAUkPoTKHFUwcyuZUqegds7F5NiSjJB3VWTDCw==",
   "success": true,
-  "projectFilePath": "H:\\DP\\SuperDrinkMachine\\SuperDrinkMachine\\SuperDrinkMachine.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\DesignPatterns\\SuperDrinkMachine\\SuperDrinkMachine\\SuperDrinkMachine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
